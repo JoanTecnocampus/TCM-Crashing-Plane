@@ -20,3 +20,4 @@ public class AddImpulse2D : MonoBehaviour
             _rigidbody2D.AddForce(_direction.normalized * _impulse, ForceMode2D.Impulse);
     }
 }
+
