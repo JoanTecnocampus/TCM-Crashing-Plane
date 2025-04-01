@@ -529,6 +529,55 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5309034468143043448, guid: c76f269922550f048991c1b073b72ef7, type: 3}
   m_PrefabInstance: {fileID: 788216374}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &800386903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 800386905}
+  - component: {fileID: 800386906}
+  m_Layer: 0
+  m_Name: Generador_Monedas
+  m_TagString: Generador_Moneda
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &800386905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800386903}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.5641975, y: 0.40065747, z: -0.01767075}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &800386906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800386903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8f027e380dc4da5a9f3fb58080d9a71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spawnDelay: 3
+  _spawnAtBegining: 1
+  _useRandomPrefab: 0
+  _prefabs:
+  - {fileID: 329498600058881622, guid: 9531e2fc37df11e419d19e7379b0ac80, type: 3}
 --- !u!1 &1216150056
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,4 +891,5 @@ SceneRoots:
   - {fileID: 1216150057}
   - {fileID: 469068552}
   - {fileID: 1580873441}
+  - {fileID: 800386905}
   - {fileID: 1226995393}
